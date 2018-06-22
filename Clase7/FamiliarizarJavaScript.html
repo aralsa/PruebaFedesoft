@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Incluyendo JS en HTML5</title>
+        <script type="text/javascript">
+            function alerta() {
+                alert('hola mundo!');
+            };
+            
+            function suma() {
+            	var numero_1 = 3;
+				var numero_2 = 1;
+				resultado = numero_1 + numero_2;
+				alert("Resultado "+resultado);	
+            };
+
+            function variables(Tipo) {
+				switch(Tipo) {
+				    case 1:
+				        // Variables numericas
+				        var iva = 16;        // variable tipo entero
+						var total = 234.65;  // variable tipo decimal
+						alert("Resultado: Iva = "+iva+" - Total ="+total);	
+				        break;
+				    case 2:
+						// Variables texto
+						var texto1 = 'Una frase con \'comillas simples\' dentro';
+						var texto2 = "Una frase con \"comillas dobles\" dentro";
+						alert("Resultado: Texto1= "+texto1+" - Texto2 ="+texto2);	
+						
+				        break;
+				    case 3:
+						// Array
+							var dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"];						
+							alert("Resultado: Array= "+dias);	
+							alert("Resultado: Dia Septimo= "+dias[6]);	
+				        break;
+				    case 4:
+						// Boolean
+							var clienteRegistrado = false;
+							var ivaIncluido = true;
+							alert("Resultado: Cliente registrado= "+clienteRegistrado+" - IvaIncluido ="+ivaIncluido);	
+				        break;
+				    default:
+				        alert("No se envio Tipo de Variable a Mostrar");	
+				    };
+			};
+
+            function Operadores(Tipo) {
+				switch(Tipo) {
+				    case 1:
+				        // Incremento y Decremento
+							var numero1 = 5;
+							var numero2 = 2;
+							numero3 = ++numero1 + numero2;
+							// numero3 = 8, numero1 = 6
+							alert("Resultado: numero = "+numero3);	
+							numero1++
+							alert("Resultado: numero = "+numero1);	
+							
+				        break;
+				    case 2:
+						// Logicos Negación
+							var cantidad = 0;
+							vacio = !cantidad;  // vacio = true
+						 
+							var mensaje = "";
+							mensajeVacio = !mensaje;  // mensajeVacio = true
+
+							alert("Resultado: Vacio= "+vacio+" - mensajeVacio ="+mensajeVacio);	
+						
+				        break;
+				    case 3:
+						// Logicos AND
+							var valor1 = true;
+							var valor2 = false;
+							resultado = valor1 && valor2; // resultado = false
+							 
+							alert("Resultado: AND true && false= "+resultado);	
+
+							valor1 = true;
+							valor2 = true;
+							resultado = valor1 && valor2; // resultado = true
+
+							alert("Resultado: AND true && true= "+resultado);	
+						
+				        break;
+				    case 4:
+						// Logicos OR
+							var valor1 = true;
+							var valor2 = false;
+							resultado = valor1 || valor2; // resultado = true
+							 
+							alert("Resultado: AND true && false= "+resultado);	
+
+							valor1 = false;
+							valor2 = false;
+							resultado = valor1 || valor2; // resultado = false
+							
+							alert("Resultado: AND false && false= "+resultado);	
+						
+				        break;
+				    case 5:
+						// Matematicos
+							var numero1 = 10;
+							var numero2 = 5;
+							 
+							resultado = numero1 / numero2;  // resultado = 2
+							alert("Resultado: 10 / 5 = "+resultado);	
+
+							resultado = 3 + numero1;        // resultado = 13
+							alert("Resultado: 3 + 10 = "+resultado);	
+
+							resultado = numero2 - 4;        // resultado = 1
+							alert("Resultado: 5 -4 ="+resultado);	
+
+							resultado = numero1 * numero2; // resultado = 50
+							alert("Resultado: 10 * 5 ="+resultado);	
+
+							resultado = numero1 % numero2; // resultado =
+							alert("Resultado: 10%5 ="+resultado);	
+						
+				        break;
+				        
+
+				        
+				    default:
+				        alert("No se envio Operador a Mostrar");	
+				    };
+			};
+
+        </script>
+    </head>
+    <body>
+        <section>
+            <span onclick="alerta();">Hola Mundo</span>
+            <br>
+            <span onclick="suma();">Suma</span>
+            <br>
+            <h1>Tipos de Variables</h1>
+            <br>
+            <span onclick="variables(1);">Variables Numericas</span>
+            <br>
+            <span onclick="variables(2);">Variables Texto</span>
+            <br>
+            <span onclick="variables(3);">Variables Array</span>
+            <br>
+            <span onclick="variables(4);">Variables Boleanas</span>
+            <br>
+            <h1>Operadores</h1>
+            <br>
+            <span onclick="Operadores(1);">Operador Incremento y Decremento</span>
+            <br>
+            <span onclick="Operadores(2);">Operador Logico Negación</span>
+            <br>
+            <span onclick="Operadores(3);">Operador Logico AND</span>
+            <br>
+            <span onclick="Operadores(4);">Operador Logico OR</span>
+            <br>
+            <span onclick="Operadores(5);">Operador Matematicos</span>
+            <br>
+            
+        </section>
+    </body>
+</html>
