@@ -1,0 +1,163 @@
+<html>
+	<head>
+      <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+      <title aling=center> HOJA DE VIDA</title>
+      
+      <script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+
+	 <script type="text/javascript">
+	    $(document).ready(function() {
+	    
+	    //Ejemplo 1
+	    $("#boton").click(function(event) {
+	        $("#htmlext").load('documentos.html');
+	    });
+	    
+	    //Ejemplo 2
+	    $("#boton2").click(function(event) {
+	        $("#htmlext2").load('ejemplo1.html div#cargar-soloesto');
+	    });
+	    
+	    //Ejemplo 3
+	    $("#boton3").click(function(event) {
+	        $("#phpextget").load('ejemplo2.php',{
+	            'var1':'Valor 1',
+	            'var2':'Valor 2'
+	            });   
+	    });
+	    
+	    //Reiniciar contenido
+	    $(".reiniciar").click(function(){
+	        $(this).next('.recargar').html('Aqui se cargará el contenido');
+	    });
+	    });
+	 </script>
+
+	</head>
+|
+
+	<style>
+		body {
+		background-image: url('fondo.jpeg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100% 100%;
+		}  
+	</style>
+  	<body bgcolor="" background="fondo.jpeg" style="color:#FF0000";>
+
+    <div id="encabezado">
+	  <!--<center><p><b><h1><font> HOJA DE VIDA</font>  </h1></b></P></center>-->
+      <MARQUEE WIDTH=80% HEIGHT=60><h1><font> HOJA DE VIDA</font>  </h1></MARQUEE>
+	  <hr width="600" SIZE =15 bgcolor >
+
+  	  <center><p><b><h2>DATOS PERSONALES</h2></b></p></center>
+      
+  	  <tr>
+
+	</div>
+  	 <div class="izquierda">
+        <div class="info">    
+        	 <br>  
+        	 <br>
+        	 <br>
+        	 <br>
+        	 <br>
+        	 <br>
+		      <table border="1" width="60%" height="160" >
+		        <tr><TD><B>Cedula:  </B></TD> <TD >74359815<br></TD> 
+		        <td rowspan="12"><img src="1.jpg" width="170" height="280"></TD> </TR>
+		        <tr><td><B>Apellidos:  </B></td> <TD>Alba Salazar<br></td>    
+		        <tr><td><B>Nombres:  </B></td> <td>Arturo<br></td>  
+		        <tr><td><B>Nacionalidad:  </B></td> <td>Colombiano<br></td>  
+		        <tr><td><B>Lugar de Nacimiento:  </B></td> <td>Bogotá<br></td>  
+		        <tr><td><B>Fecha de Nacimiento:  </B></td><td> 17 de Junio de 1977 <br></td>  
+		        <tr><td><B>Edad:  </B></td>  <td>41 <br></td>  
+		        <tr><td><B>Estado Civil:  </B></td>  <td>Soltero <br></td>  
+		        <tr><td><B>Email:  </B></td><td>arturo.alba04@gmail.com <br></td>  
+		        <tr><td><B>Celular:  </B></td>  <td>3133786958 <br></td>  
+			  </table>
+
+			<input type="button" id="boton" value="Documentos" /> 
+			<input type="button" value="Reiniciar" class="reiniciar" />
+
+		
+	        </div>   
+    </div>
+
+
+    <div class="derecha">
+        <div class="content">
+			  <center><p><b><h2>ESTUDIOS REALIZADOS</h2></b></p></center>
+		
+		      <ul>
+		        <br><b>Primaria</b></br>
+		        <br><li>Colegio El Rosario</li></br>
+		        <br><b>Secundaria</b></br>
+		        <br><li>Colegio Academico</li></br>
+		        <br><b>Superior</b></br>
+		        <br><li>Fundación Universitaria Panamericana</li></br>
+			</ul>
+		
+			<center><p><b><H2>TITULO OBTENIDO</H2></b></p></center>
+		
+		  	<table border="1"width="49%" height="45">
+		      <tr><td><b>Profesional</b></td><TD> <a href="">Ingenieria de Sistema de Computo</a></td></tr>
+			</table>
+		
+			<center><p><b><H2>CURSOS REALIZADOS</H2></b></p></center>
+		
+		    <table border="1"width="49%" height="45">
+		      <tr><td> Fundamentos de Itil </td><td> <a href="3.jpg">CERTIFICADO DEL CURSO</td> </tr>
+		      <tr><td> Desarrollo Aplicaciones .Net</td><td> <a href="4.jpeg">CERTIFICADO DEL CURSO</td> </tr>
+		      <tr><td> HTML5 y CSS </td><td> <a href="5.png">CERTIFICADO DEL CURSO</TD> </tr>
+		    </table>
+		
+		
+			<center><p><b><h2><b>REFERENCIAS PERSONALES</h2></b></p></center>
+		
+		    <table border="1"width="49%" height="45" style="color:#FF0000";>
+		      <tr><td><b>Ing. Eduardo Alba Salazar</b></td><TD>0999999999</td></tr>
+		      <tr><td><b>Ing. Javier Montaña </b></td><td>0999999999</td></tr>
+		      <tr><td><b>Ing. Alexander Barraza</b></td><td>0999999999</td></tr>
+		    </table>
+		
+		
+			</table>
+		
+			<center><H1>Documentos Fisicos</H1></center>
+		
+			<h2>
+			<A name=”TITULO DE BACHILLER”<P>TITULO DE BACHILLER</P></A>
+		
+		
+			<CENTER><IMG SRC="2.jpg" height="500" width="600"></CENTER>
+		
+		
+			<P>Fundamentos de Itil </P>
+		
+			<CENTER><IMG SRc="3.jpg" height="500" width="400"></CENTER>
+		
+		
+		
+			<P>CURSOS REALIZADOS</P>
+		
+			<A name=”CERTIFICADO DEL CURSO”<P>Desarrollo Aplicaciones .Net</P></A>
+		
+			<CENTER><IMG SRC="4.jpeg" height="500" width="600"></CENTER>
+			<br>
+		
+		
+			<A name=”CERTIFICADO DEL CURSO”<P>HTML5 y CSS</P></A>
+		
+			<CENTER><IMG SRC="5.png" height="500" width="600"></CENTER>
+			<br>
+        </div>
+    </div>
+
+    <div id="pie">
+        <p id="direccion">Curso Fedesoft, <span>Bogotá</span> 12345-6789 | Tel: <span>(555) 555-5555</span></p>
+    </div>
+
+	</body>
+</html>

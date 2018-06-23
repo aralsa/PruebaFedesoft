@@ -1,0 +1,66 @@
+Proyecto: Recilar para respirar
+--escaneo para identificar producto y clasificación
+
+1. Descubrir
+--qué?
+qué reciclan? papel, cuadernos, carton, plasticos, 
+qué se debe reciclar? latas, carton, vidrio, 
+qué productos se pueden reciclar segun la infraestructura?
+qué no permite que la comunidad reciclé? 
+
+--cómo? 
+¿cómo realizar la distribución de las bolsas?
+¿cómo capacitar a la comunidad en el reciclaje?
+¿cómo incentivar a la comunidad en el reciclaje?
+¿cómo identificar los materiales a reciclar?
+¿Cómo mejorar la recolección de materiales a reciclar?
+
+
+por qué?
+por qué no recicla por la comunica en la actualidad?
+por qué se debe reciclar?
+por qué ubicar puntos y horario para reciclar?
+por qué no se incentiva el reciclaje?
+por qué se limita el tipo de productos a reciclar?
+por qué la metodología actual de reciclaje no logra su objetivo?
+por qué no se tiene una herramienta que gestione el proceso de reciclaje?
+por qué no hay plantas de reciclaje especial?
+
+2. Interpretar
+
+
+lo que dice
+	Es tedioso hacerlo
+	No cuento con las herramientas
+	No conozco como hacerlo
+	No tengo habitos de reciclaje
+	No hay la información necesaria
+	No tengo los colores de la bolsa
+	La recolección de mi zona no contempla el reciclaje
+
+lo que hace
+	No se compromete con el reciclaje
+	Por facilidad en la dispocisión de los materiales es más facil no reciclar
+	No busca los recursos para ejecutar la labor del reciclaje
+	Poca identidad con la labor del reciclaje 
+	Sacar la basura revuelta sin haber separado de la misma.
+	
+Lo que piensa
+	Hay que reciclar y contribuir en el proceso para el futuro de la generaciones
+	El cuidado de la naturaleza
+	El reciclar debería ser mas fácil 
+	Debería existir un modo automatico en la basura 
+	Escanear la basura y que esta se clasifique de acuerdo a su tipo de material
+	Si reciclo porque el reciclador informal desordena los materiales.
+	Debería existir un centro de acopio que realice el trabajo de reciclaje
+	
+lo que siente
+	Siente que no es su tarea 
+	Siente que paga para que otras personas realicen esa tarea y no lo hacen (Tarifa de Aseo)
+	Mis obligaciones son otras y no el reciclaje.
+	Rabia por no conocer los horarios de recolección
+	Frustración porque solo una persona realiza la tarea y no la comunidad en general.
+	En general a la gente no le intereza el medio ambiente.
+	
+	
+	 	
